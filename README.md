@@ -21,7 +21,7 @@ The localization pipeline operates in two stages:
 | **Coarse** | SVM (One-Against-All) | Identify candidate local places from a single range scan |
 | **Fine** | F-SSM + RANSAC + Particle Filter | Estimate precise robot pose within candidate places |
 
-![System Overview](images/Environment setup.png)
+![System Overview](images/environment_setup.png)
 *Lidar scan data visualized in the NEU Racing Environment*
 
 ---
