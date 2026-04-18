@@ -43,7 +43,7 @@ $$\hat{M} = \sum_{i=0}^{K-1} H_i \otimes B_i$$
 
 **Key advantages over SSM:** ~106× less memory, ~156× faster computation.
 
-![F-SSM Result](images/fssm_range_scan_matching.png)
+<img src="images/fssm_range_scan_matching.png" width="500"/>
 
 *F-SSM scan matching result — blue: reference scan, red: current scan, green: transformed scan*
 
@@ -58,7 +58,7 @@ A basic SVM classifier was implemented to understand the coarse localization sta
 - Kernel options explored: linear, polynomial, RBF, sigmoid
 - Support vectors and margin boundaries visualized
 
-![SVM Classifier](images/svm_classifier_simple_implementation.png)
+<img src="images/svm_classifier_simple_implementation.png" width="500"/>
 
 *SVM decision boundary with margins separating two feature classes*
 
@@ -108,7 +108,7 @@ The algorithm successfully computes rotation matrix **R** and translation vector
 
 Integration of F-SSM with the unicycle motion model shows discrepancy between true and estimated paths, highlighting the challenge of accumulating pose errors in continuous localization without a full particle filter implementation.
 
-![Localization Result](images/Localization_fail_using_fssm.png)
+<img src="images/Localization_fail_using_fssm.png" width="500"/>
 
 *Localization attempt — blue: true path, red dashed: F-SSM estimated path*
 
